@@ -1,0 +1,237 @@
+body{ 
+
+    margin: 0;
+    padding: 0;
+    background: url(imagen/img\ 10pjg.png);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: aliceblue;
+
+} 
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+h1 {
+    text-align: center;
+    background-color: rgb(8, 8, 8);
+    color: white;
+    padding: 20px;
+    color: gold;
+    
+
+  
+}
+
+
+nav ul{
+    background-color: goldenrod;
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+    width: 100%;
+}
+nav li {
+    display: inline-flex;
+    
+}
+nav a {
+    text-decoration: none;
+    color: beige;
+    padding: 12px;
+    width: 150;
+    position: relative;
+    cursor: pointer;
+    transition: color 0.25s;
+
+   
+}
+
+a::after{
+    position: absolute;
+    content: "";
+    inset: 0;
+    background-color: beige;
+    scale: 1 0;
+    z-index: -1;
+    transition: 0.45s;
+    border-radius: 10px;
+}
+
+
+nav li:hover {
+    background-color: black;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+     border-radius: 8px;
+}
+.contenido {
+    display: flex;
+    /*grid-template-areas: "articulo articulos menuSecundario";*/
+    margin: 30px;
+    
+    
+}
+.articulos {
+    grid-area: articulos;
+    width: 80%;
+   border-right: 3px solid white;
+   }
+
+
+.secciones {
+    
+    padding: 2px;
+
+}
+
+
+.secciones p{
+    text-align: justify;
+
+}
+
+.texto
+{
+    display: inline-block;
+    margin-right: 50%;
+    /*background-color: aliceblue;
+    opacity: 0.2;*/
+}
+.imagenes{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px,100px;
+}
+/*.secciones receta {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr;
+    text-align: center;
+}*/
+
+.menu.secundario {
+    display: flex;
+    width: 20%;
+    margin-top: 60px;
+  
+    
+}
+.menu.secundario a {
+    display: block;
+    align-items:center;
+     
+    color: black;
+    margin-bottom: 20px;
+
+}
+
+section {
+    display: block;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    justify-content: center;
+    align-items: stretch;
+    
+ 
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline;
+  }
+ 
+
+footer  {
+    
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    padding: 50px;
+    align-items: flex-end;
+    background-color:goldenrod;        
+}
+footer{
+    position: center;
+    background-color: rgba(236, 168, 7, 0.801);
+    padding: 5px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    grid-area: footer;
+    width: 100%;
+    height: 80%;
+}
+
+footer .social_icon li,
+footer .menu li
+{
+    list-style: none;
+}
+footer .social_icon li a
+{
+    font-size: 2em;
+    color:#0a0a0a;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+}
+footer .social_icon li a:hover
+{
+    transform: translateY(-10px);
+}
+footer .menu li a{
+    font-size: 1.2em;
+    color:#0a0a0a;
+    margin: 0 10px;
+    display: inline-block;
+    text-decoration: none;
+    opacity: 0.75;
+}
+footer .menu li a:hover{
+    opacity: 1;
+}
+footer p
+{
+    color: #0a0a0a;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+.social_icon{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+
+}
+.historia p{
+    padding: 50px;
+    
+}
+
+.origen p{
+    padding: 50px;
+}
+
