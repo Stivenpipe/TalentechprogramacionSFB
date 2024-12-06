@@ -1,0 +1,194 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    background: url(imagen/img\ 10pjg.png); 
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+
+*{   margin: 0;
+    padding: 0;
+
+}
+h1 {
+    text-align: center;
+    background-color:  rgb(8, 8, 8);
+    color: gold;
+    padding: 20px;
+   
+}
+
+h2 {
+    color: rgb(69, 223, 18);
+    text-align: center;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 14px;
+    text-align: center;
+    background-color: goldenrod;
+    width: 100%;
+
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    
+}
+
+
+nav li:hover {
+    background-color: black;
+    padding: 20px;
+}
+
+
+/*footer  {
+    
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    padding: 50px;
+    align-items: flex-end;
+    background-color:goldenrod;        
+}*/
+footer{
+    position: center;
+    background-color: rgba(236, 168, 7, 0.801);
+    padding: 5px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    grid-area: footer;
+    width: 100%;
+    height: 80%;
+}
+
+footer .social_icon li,
+footer .menu li
+{
+    list-style: none;
+}
+footer .social_icon li a
+{
+    font-size: 2em;
+    color:#0a0a0a;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+}
+footer .social_icon li a:hover
+{
+    transform: translateY(-10px);
+}
+footer .menu li a{
+    font-size: 1.2em;
+    color:#0a0a0a;
+    margin: 0 10px;
+    display: inline-block;
+    text-decoration: none;
+    opacity: 0.75;
+}
+footer .menu li a:hover{
+    opacity: 1;
+}
+footer p
+{
+    color: #0a0a0a;
+    text-align: center;
+    margin-top: 15px;
+   /* margin-bottom: 10px;*/
+    font-size: 1.1em;
+}
+
+.social_icon{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+
+}
+
+/* Estilos de las secciones */
+.section {
+    margin: 30px;
+    padding: 50px;
+    background-color: rgb(6, 26, 36); 
+    border-radius: 8px;
+    color: white;
+  
+}
+
+
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   margin: 20px;
+}
+
+.text  {
+    flex: 1;
+    margin-right: 50px;
+    
+    
+}
+
+.text p small{
+    padding: 80px;
+    }
+
+
+.text input{
+    background-color: #69d839;
+    margin-left: 80px;
+    }
+
+.text label{
+    padding: 80px;
+}
+
+
+
+.image {
+    flex: 1;
+    
+
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+
+    
+}
+
+/* Estilo de los botones y el formulario */
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: rgb(69, 223, 18);
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 0%;
+    
+} 
+
+
+
+
